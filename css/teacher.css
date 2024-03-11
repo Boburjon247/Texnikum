@@ -1,0 +1,223 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+p {
+     padding: 0;
+     margin: 0 !important;
+}
+
+ul {
+     list-style-type: none;
+     padding: 0 !important;
+     /* margin: 0 !important; */
+}
+
+.containerTeacher {
+     display: grid;
+     grid-template-columns: 2fr 8fr;
+}
+
+.teacher {
+     background-color: bisque;
+     width: 100%;
+     height: 100vh;
+     overflow: hidden;
+     padding: 0 !important;
+}
+
+.containerTeacher .left,
+.right {
+     height: 100vh;
+}
+
+.containerTeacher .left p {
+     font-size: 22px;
+     text-align: center;
+     font-weight: bold;
+     padding: 10px 0;
+     text-transform: uppercase;
+     text-shadow: 1px 2px 1px rgb(0, 0, 0);
+     letter-spacing: 2px;
+}
+
+.containerTeacher .left {
+     box-shadow: 5px 5px 5px rgb(105, 91, 75);
+}
+
+.containerTeacher .left ul {
+     padding: 10px !important;
+}
+
+.containerTeacher .left ul li {
+     width: 100%;
+     display: block;
+     margin-bottom: 10px;
+     font-size: 18px;
+     position: relative;
+     color: #000;
+     cursor: pointer;
+     padding: 5px 10px;
+     border-radius: 5px;
+     box-shadow:
+          inset 2px 2px 2px #b19c82,
+          inset -2px -2px 2px rgb(98, 86, 72);
+}
+
+.containerTeacher .left ul li:active {
+     box-shadow:
+          inset -2px -2px 2px #b19c82,
+          inset 2px 2px 2px rgb(98, 86, 72);
+}
+
+.containerTeacher .right {
+     padding: 20px;
+}
+
+.containerTeacher .right .section {
+     height: 85vh;
+}
+
+.containerTeacher .right .teacherName {
+     width: 100%;
+     box-shadow: 3px 3px 5px rgb(105, 91, 75);
+     border-radius: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px;
+}
+
+.containerTeacher .right .teacherName .login {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     background-color: aliceblue;
+     overflow: hidden;
+}
+
+.containerTeacher .right .teacherName .login img {
+     width: 100%;
+     height: 100%;
+}
+
+.statistika {
+     box-shadow: 3px 3px 5px rgb(105, 91, 75);
+     padding: 15px;
+     margin-top: 10px;
+     border-radius: 10px;
+}
+
+.statistika ul {
+     width: 100%;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 15px;
+}
+
+.statistika ul li {
+     width: 100%;
+     height: 150px;
+     padding: 10px;
+     border-radius: 10px;
+     box-shadow: 3px 3px 5px rgb(105, 91, 75);
+}
+
+.statistika ul li p:nth-child(1) {
+     width: 100%;
+     text-align: center;
+     font-size: 20px;
+     font-weight: bold;
+     color: #b19c82;
+}
+
+.statistika ul li p:nth-child(2) {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 10px;
+}
+
+.statistika ul li p:nth-child(2) span {
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     box-shadow: inset -3px -3px 5px rgb(105, 91, 75);
+}
+
+.statistika .malumotOlish {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.statistika .malumotOlish div {
+     width: 100%;
+     padding: 10px;
+}
+
+.statistika .malumotOlish div label {
+     display: block;
+     margin-bottom: 5px;
+}
+
+.statistika .malumotOlish div select {
+     width: 100%;
+     outline: none;
+     border: none;
+     background-color: transparent;
+     padding: 8px;
+     border-radius: 5px;
+     border: 1px solid #eab97e;
+}
+
+.btn {
+     border: 1px solid orange !important;
+     margin-top: 25px !important;
+}
+
+.table1 {
+     margin-top: 20px;
+     display: none;
+}
+
+.table1.show {
+     display: block;
+}
+
+.table1 .topbar {
+     width: 100%;
+     display: grid;
+     grid-template-columns: 1.5fr 1fr 1fr 1fr;
+     border-bottom: 1px solid #eab97e;
+}
+
+.table1 .topbar div {
+     text-align: center;
+     font-size: 18px;
+     font-weight: 600;
+     padding: 8px 0;
+}
+
+.table1 .main ol {
+     padding: 0;
+     margin: 0;
+}
+
+.table1 .main ol li {
+     display: grid;
+     grid-template-columns: 1.5fr 1fr 1fr 1fr;
+     padding: 5px;
+     margin-bottom: 5px;
+     text-align: center;
+}
+
+.table1 .main ol li p:nth-child(1) {
+     text-align: start;
+}
