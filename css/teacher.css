@@ -78,6 +78,11 @@ ul {
 
 .containerTeacher .right .section {
      height: 85vh;
+     box-shadow: 3px 3px 5px rgb(105, 91, 75);
+     padding: 15px;
+     margin-top: 10px;
+     border-radius: 10px;
+
 }
 
 .containerTeacher .right .teacherName {
@@ -101,13 +106,6 @@ ul {
 .containerTeacher .right .teacherName .login img {
      width: 100%;
      height: 100%;
-}
-
-.statistika {
-     box-shadow: 3px 3px 5px rgb(105, 91, 75);
-     padding: 15px;
-     margin-top: 10px;
-     border-radius: 10px;
 }
 
 .statistika ul {
@@ -220,4 +218,94 @@ ul {
 
 .table1 .main ol li p:nth-child(1) {
      text-align: start;
+}
+
+.TestYuklash {
+     display: grid !important;
+     grid-template-columns: 2fr 1fr;
+}
+
+.TestYuklash .savollar {
+     padding: 10px;
+}
+
+.TestYuklash .savollar label {
+     display: block;
+     font-size: 14px;
+}
+
+.TestYuklash .savollar textarea {
+     width: 100%;
+     outline: none;
+     padding: 10px;
+     border: none;
+     background-color: #FFE4C4;
+     border: 1px solid #9a7a52;
+     border-radius: 5px;
+     margin-bottom: 10px;
+     resize: none;
+}
+
+.TestYuklash .savollar .item {
+     margin-bottom: 10px;
+     display: flex;
+}
+
+.TestYuklash .savollar .item input[type="text"] {
+     width: 100%;
+     outline: none;
+     border: 1px solid #9a7a52;
+     background-color: #FFE4C4;
+     padding: 8px 10px;
+     border-radius: 5px;
+}
+
+.TestYuklash .savollar .item input[type="radio"] {
+     width: 20px !important;
+     margin: 10px;
+     cursor: pointer;
+}
+
+.TestYuklash .savollar input[type="submit"] {
+     padding: 10px 20px;
+     background-color: #FFE4C4;
+     border-radius: 5px;
+     margin-top: 10px;
+
+}
+
+.TestYuklash .javoblar {
+     height: 600px;
+     overflow-y: auto;
+}
+
+.TestYuklash .javoblar ul {
+     height: 95%;
+     padding: 10px !important;
+}
+
+.TestYuklash .javoblar ul li {
+     border: 1px solid #9a7a52;
+     padding: 10px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+}
+
+.TestYuklash .javoblar ul li:nth-child(1) {
+     margin-top: 21px;
+}
+
+.TestYuklash .javoblar ul li form {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.TestYuklash .javoblar ul li form button[type='submit'] {
+     width: 35px;
+     height: 35px;
+     border-radius: 50%;
+     background-color: transparent;
+     color: red;
+     border: 1px solid red;
 }
